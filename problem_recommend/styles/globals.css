@@ -1,0 +1,224 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgba(253, 253, 253, 0.952);
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+.hidden{
+  display: block;
+}
+.btn-space{
+  margin-right: 5px;
+}
+
+.div-container{
+  display: grid;
+  width: 75%;
+  margin: auto;
+  grid-template-rows: 1fr 1fr 1fr;
+  place-items: center;
+}
+.quote{
+  
+  line-height: 20px;
+  height: 200px;
+  width: 50%;
+  text-align: left;
+}
+.quote .small{
+  padding-top: 30px;
+  margin-top: 5px;
+  font-size: 15px;
+  width: 300px;
+}
+
+.quote .big{
+  
+  line-height: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.quote .last{
+  font-size: 25px;
+}
+.img-div1{
+  height: auto;
+}
+.img > div{
+  float: left;
+}
+.img{
+  
+  display: grid;
+  grid-template-columns: 400px 400px;
+  position: relative;
+  place-items: center;
+}
+.bgc-beige{
+  background-color: rgba(245, 245, 245, 0.952);
+}
+
+.prob-div-root{
+  display: grid;
+  position: relative;
+  place-items: center;
+  background-color: bisque;
+}
+.prob-div-child1{
+  width: 80%;
+}
+.chal-prob{
+  background-color: aquamarine;
+  width: 150px;
+  float: left;
+  height: 300px;
+}
+.title-homepage{
+  opacity: 0.6;
+}
+.test{
+  background-color: blue;
+}
+.signin-btn{
+  font-size: 4px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.signup-btn{
+  font-size: 4px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  background-color: black;
+  color: white;
+}
+.code-container{
+  width: 100%;
+  height: 100vh;
+  max-height: 100vh;
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  grid-template-rows: 9vh 16vh 52vh 4vh 18vh;
+}
+.code-container .code-navbar{
+  grid-column: 1/3;
+  grid-row: 1/2;
+
+}
+.code-container .code-title{
+  grid-column: 1/2;
+  grid-row: 2/3;
+  border-style: solid;
+  text-align: center;
+  border-width: 1px;
+}
+.code-container .code-problem{
+  grid-column: 1/2;
+  grid-row: 3/6;
+  border-style: solid;
+  border-width: 1px;
+  font-size: large;
+  word-spacing: 5px;
+  line-height: 40px;
+  overflow: auto;
+}
+.code-problem h1{
+  font-size: 20px;
+  text-align: center;
+}
+.code-container .code-editor{
+  grid-column: 2/3;
+  grid-row: 2/4;
+  border-style: solid;
+  border-width: 1px;
+}
+.code-editor textarea{
+  width: 100%;
+}
+.code-container .code-button{
+  grid-column: 2/3;
+  grid-row: 4/5;
+  border-style: solid;
+  border-width: 1px;
+}
+.code-container .code-recog{
+  grid-column: 2/3;
+  grid-row: 5/6;
+  border-style: solid;
+  border-width: 1px;
+  overflow: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  text-align: center;
+}
+.code-recog ul{
+  text-align: center;
+  list-style-type: inside;
+}
+
+
+.code-recog .opposite{
+  background-color: rgba(245, 245, 245, 0.952);
+}
+.code-recog .same-level{
+  background-color: rgba(245, 245, 245, 0.952);
+}
+
+.list-container{
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  grid-template-rows: 50px 100% 50px;
+}
+.list-container .list-navbar{
+  grid-column: 1/4;
+  grid-row: 1/2;
+}
+.list-container .list-recog{
+  margin-top: 140px;
+  margin-bottom: auto;
+  grid-row: 2/3;
+  grid-column: 1/2;
+  text-align: center;
+  position: fixed;
+  width: 200px;
+}
+.list-container .list-recog .recog-element{
+  border-style: solid;
+  border-color: black;
+}
+.list-container .list-problist{
+  grid-row: 2/3;
+  grid-column: 2/3;
+  padding-top: 80px;
+}
+.list-container .list-next-prev{
+  background-color: rgba(239, 239, 239, 0.591);
+  grid-row-start: 3;
+  grid-column: 1/4;
+  grid-row: 3/4;
+  margin-top: auto;
+}
+.mainpage-navbar{
+  width: 1000px;
+  background-color: rgba(239, 239, 239, 0.591);
+  
+}
+.navbar-bg{
+  background-color: rgba(239, 239, 239, 0.591);
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
